@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body id="<%= cuisine %>Page">
+    <a href="/profile" class="btn btn-default btn-sm" id="profileBtn">👤Profile Page</a>
+    <h1 id="<%= cuisine %>Header"><%= cuisine %> Recipies</h1>
+    <button id="FoodBtn" data-cuisine="<%= cuisine %>">Find A Dish</button>
+    <!-- class="<%= cuisine %>FoodBtn" -->
+    <h2 id="dish"></h2>
+    <p id="list"></p>
+    <img src="" alt="foodImg" id="foodImg">
+
+    <div class="col-sm-12">
+        
+        <h2 id="profileH2">Add Ingredients</h2>
+      <% if (user.local.username) { %>
+        <form action="/messages" method="POST">
+          <!-- <input type="text" value="<%= user.local.username %>" name="name"> -->
+          <input type="text" placeholder="Ingredient" name="msg">
+          <button type="submit">Add</button>
+        </form>
+      </div>
+      <% } %>
+    
+<script src="/main.js"></script>   
+</body>
+</html>
