@@ -1,0 +1,227 @@
+body {
+  padding-top: 18px;
+  word-wrap: break-word;
+
+}
+
+img {
+  height: 300px;
+}
+
+.container .jumbotron {
+  border-radius: 6px;
+  background: radial-gradient(#074a16, transparent);
+}
+
+.col-sm-6 {
+  margin-left: 50px;
+}
+
+input {
+  border-radius: 10px;
+  width: 180px;
+}
+
+.messages {
+  margin-bottom: 70px;
+  font-size: 1.5rem;
+}
+
+h3,
+.h3 {
+  color: white;
+  font-size: 2.6rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+ul {
+  background: rgba(23, 23, 23, 0.599);
+  border: 10px groove seagreen;
+}
+
+.page-header {
+  color: goldenrod;
+  border-bottom: none;
+  font-size: 5.5rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+h4 {
+  padding-left: 630px;
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px black;
+}
+
+.col-sm-12 {
+  padding-left: 761px;
+  color: white;
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+#profileH2 {
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+#profileback {
+  background-image: url("img/ingredients.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#profile {
+  font-size: 5.5rem;
+  margin-left: 700px;
+}
+
+.fa-thumbs-up:before {
+  content: "\f705";
+}
+
+.btn-sm {
+  /* margin-left: 695px; */
+  margin-top: 100px;
+}
+
+#socialbtn {
+  background: teal;
+  color: white;
+  width: 150px;
+  border: 4px groove white;
+  font-size: 1.6rem;
+  margin-top: 0;
+
+}
+
+#logout {
+  float: right;
+  margin-right: 30px;
+  background: maroon;
+  color: white;
+  margin-bottom: 60px;
+}
+
+#profileBtn {
+  float: right;
+  width: 100px;
+  height: 30px;
+  border: 8px groove goldenrod;
+  border-radius: 20px;
+  margin-top: 0px;
+  background: rgba(223, 6, 6, 0.8);
+  color: white;
+  margin-right: 10px;
+}
+
+#cuisineSelctors {
+  margin-left: 554px;
+}
+
+/* Japan PAGE================================================ */
+
+#chinesePage {
+  background-image: url("img/japan.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#chineseHeader {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(172, 30, 30);
+  margin-top: 0px;
+}
+
+#ingrList {
+  width: 538px;
+  font-size: 1.4rem;
+  margin-left: 31%;
+  word-spacing: 6px;
+  ;
+}
+
+#chineseDish {
+  font-size: 1.3rem;
+  color: coral;
+}
+
+/* American PAGE====================================================== */
+
+#americanHeader {
+  text-align: center;
+  font-size: 3rem;
+  color: navy;
+  margin-top: 20px;
+  margin-bottom: 36px;
+  margin-right: 226px;
+  text-transform: capitalize;
+}
+
+#americanPage {
+  text-align: center;
+  background-image: url("img/american.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#americanFoodBtn {
+  transform: rotate(-11deg);
+  height: 40px;
+  width: 100px;
+}
+
+#americandish {
+  color: rgb(161, 37, 48);
+}
+
+#americanPage h2 {
+  color: white;
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 2px black;
+  /* margin-top: 86px; */
+
+}
+
+#americanPage>p {
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*====================Italian==================*/
+#italianHeader {
+  text-align: center;
+  font-size: 3rem;
+  color: navy;
+  margin-top: 0px;
+  margin-bottom: 36px;
+  margin-right: 226px;
+  text-transform: capitalize;
+  background: linear-gradient(to right, #00924791, #ffffff91, #ce2b3690);
+}
+
+#italianPage {
+  background-image: url("img/italian.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#italianPage>h2 {
+  color: white;
+  margin-top: 300px;
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 156px;
+}
+
+#italianPage>p {
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}

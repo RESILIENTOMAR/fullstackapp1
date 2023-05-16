@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>COOKSHARE</title>
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body id="profileback">
+
+  <div class="container">
+
+    <div class="page-header text-center">
+      <h1 id="profile">🍲Profile Page🍲</h1>
+
+    </div>
+
+    <!-- <div class="row"> -->
+
+    <!-- LOCAL INFORMATION -->
+    <!-- <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> Local</h3>
+
+                <% if (user.local.username) { %>
+                    <p>
+                        <strong>id</strong>: <%= user._id %><br>
+                        <strong>username</strong>: <%= user.local.username %><br>
+                        <strong>password</strong>: <%= user.local.password %>
+                    </p>
+
+                    <a href="/unlink/local" class="btn btn-default">Unlink</a>
+                <% } else { %>
+                    <a href="/connect/local" class="btn btn-default">Connect Local</a>
+                <% } %>
+
+            </div>
+        </div> -->
+    <div class="col-sm-12">
+      <h3>Your Shopping List</h3>
+      <ul class="messages">
+        <% for(var i=0; i<messages.length; i++) {%>
+          <li class="message">
+            <span>
+              <%= messages[i].name %>
+            </span>
+            <span>
+              <%= messages[i].msg %>
+            </span>
+            <!-- <span><%= messages[i].thumbUp %></span> -->
+            <span><i class="bi bi-bag-heart"></i></span>
+            <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+          </li>
+          <% } %>
+      </ul>
+
+
+
+    </div>
+
+
+
+    <h4>Select Your Cuisine</h4>
+    <section id="cuisineSelctors">
+      <a href="/cuisine/chinese" class="btn btn-default btn-sm" id="socialbtn">Chinese🇨🇳</a>
+      <a href="/cuisine/american" class="btn btn-default btn-sm" id="socialbtn">United States🇺🇸</a>
+      <a href="/cuisine/italian" class="btn btn-default btn-sm" id="socialbtn">Italy🇮🇹</a>
+    </section>
+    <!-- <a href="/cuisine/american" class="btn btn-default btn-sm" id="usfoodBtn">United States</a>
+<a href="/cuisine/italian" class="btn btn-default btn-sm" id="usfoodBtn">United States</a> --> -->
+
+    <a href="/logout" class="btn btn-default btn-sm" id="logout">Logout</a>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
